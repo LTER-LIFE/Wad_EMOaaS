@@ -9,10 +9,11 @@ dependencies:
   - pandas
   - scipy
   - netCDF4
+  - matplotlib
+  - xlrd
   - minio
   - jupyterlab
   - ipykernel
-#  - matplotlib
 #  - ipykernel   # For VS Code / Jupyter integration
 #  - pip         # Optional, for pip installs
 #  - esda
