@@ -13,18 +13,18 @@ ssh -Y -L8889:localhost:8889 qzhan@laplace.nioz.nl
 ## activate conda
 source $HOME/.bashrc.conda3 (or .bashrc.conda3)
 
-## 3. check kernel
 
-jupyter kernelspec list
 # conda env create -f 3Dmodel_input_output_env.yml 
 # conda env update -f 3Dmodel_input_output_env.yml 
 conda activate my_env_name
 
+## 3. check kernel
+jupyter kernelspec list
 python -m ipykernel install --user --name my_env_name --display-name "Python (my_env_name)"
 
-## 3. To start JupyterLab type :
-jupyter lab --no-browser --port=8888 --ip="0.0.0.0"
+## 4. To start JupyterLab type :
+jupyter lab --no-browser --port=8889 --ip="0.0.0.0"
 
-## 4. Then connect VS Code to this server URL:
-http://127.0.0.1:8888/?token=XXX
+## 5. Then connect VS Code to this server URL:
+http://127.0.0.1:8889/?token=XXX
 
