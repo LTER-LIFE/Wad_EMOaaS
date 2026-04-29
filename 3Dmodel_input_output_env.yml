@@ -18,13 +18,14 @@ dependencies:
   - minio
   - jupyterlab
   - ipykernel
-#  - ipykernel   # For VS Code / Jupyter integration
-#  - pip         # Optional, for pip installs
+  - rasterio
+  - pip         # Optional, for pip installs
+  - contextily    # For basemap plotting with Matplotlib
 #  - esda
 #  - libpysal
 #  - pykrige
 #  - scikit-gstat
-  - rasterio
+
 
 
 
