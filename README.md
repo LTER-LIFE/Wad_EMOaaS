@@ -6,6 +6,9 @@ https://github.com/LTER-LIFE/GETM_ERSEM_SETUPS.git
 
 # connect notebook kernel with laplace server
 
+- set environmental variable DISPLAY 
+$env:DISPLAY = "127.0.0.1:0.0"
+
 - 1. create an SSH tunnel from your local machine
 ssh -Y -L8889:localhost:8889 qzhan@laplace.nioz.nl
 
