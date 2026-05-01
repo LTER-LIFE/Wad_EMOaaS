@@ -19,6 +19,10 @@ juplab() {
      jupyter lab --no-browser --ip=0.0.0.0 --port=8889 --port-retries=0"
 }
 
+# conda envs:
+# input_data_prep
+# 3Dmodel_input_output_process
+
 # kill by name:
 # lsof -i :8889
 # kill -9 <PID>
