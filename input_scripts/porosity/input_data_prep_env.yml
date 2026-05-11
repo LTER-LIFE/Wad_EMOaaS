@@ -5,17 +5,17 @@ channels:
 dependencies:
   - r-base=4.3
   - r-aws.s3       # A simple client package for the Amazon Web Services ('AWS') Simple Storage Service ('S3') 'REST' 'API' <https://aws.amazon.com/s3/>.
-#  - r-terra        # rast(), project(), extract()
-#  - r-ncdf4        # nc_open(), ncvar_get(), nc_create()
+  - r-ncdf4        # nc_open(), ncvar_get(), nc_create()
   - r-ggplot2      # ggplot()
   - r-tidyterra    # geom_spatraster() and terra/ggplot2 bridge
   - r-leaflet      # leaflet()
+  - r-irkernel     # create and register R Jupyter kernel
+  - libgdal-netcdf # NetCDF driver plugin required for terra::rast("*.nc")
 #  - r-classint     # classIntervals()
 #  - r-rmarkdown    # knit / render the .Rmd file
-  - r-irkernel     # create and register R Jupyter kernel
 #  - jupyterlab     # launch notebooks from this environment
 #  - gdal           # GDAL core used by terra
-# - libgdal-netcdf # NetCDF driver plugin required for terra::rast("*.nc")
+#  - r-terra        # rast(), project(), extract()
 
 # Create the environment:
 #   conda env create -f input_data_prep_env.yml
@@ -24,3 +24,7 @@ dependencies:
 
 # To render the Rmd from the command line:
 #   Rscript -e "rmarkdown::render('Input_data_prep.Rmd')"
+
+# Install a package without editing YAML:
+# conda activate input_data_prep
+# conda install -c conda-forge r-ncdf4
