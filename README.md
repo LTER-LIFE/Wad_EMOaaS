@@ -7,7 +7,12 @@ Wadden Sea Ecosystem Model, Pelagic and Benthic coupling; Ecosystem Digital Twin
 # Expected delivery
 Workflow for processing the Wadden Sea Ecosystem Model Output As a Service (EMOaaS); A peer-reviewed publication; Education resource for capacity building
 
-# Model domain & 4d example outputs
+# Wadden Sea Ecosystem in physical & digital world:
+Avia photo (by Tjitske Kooistra & Kenneth Larsen)
+<img src="./example_graphs/WaddenSea_Tjitske.JPG" alt="Wadden Sea" width="700">
+<img src="./example_graphs/WaddenSea_Kenneth.JPG" alt="Wadden Sea" width="700">
+
+Model domain & 4d example outputs
 <img src="./example_graphs/schema_DWS.png" alt="Model schema" width="700">
 
 - Top view:
