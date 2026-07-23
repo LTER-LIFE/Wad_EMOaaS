@@ -30,6 +30,9 @@ The Wadden Sea is the world's largest continuous intertidal ecosystems and a UNE
 ## Digital Twin of the Wadden Sea Ecosystem:
 The Digital Twin represents the coupled physical and ecological processes of the Wadden Sea through high-resolution numerical modelling and interactive data exploration.
 
+<img width="1900" height="942" alt="DWS_N1p_2" src="https://github.com/user-attachments/assets/2165dd0a-416f-487b-9777-ab38a9cd0545" />
+
+- Demonstration animation:
 https://github.com/user-attachments/assets/ab2ff978-1a69-49f5-863b-5069ba22b703
 
 Note that the vertical exaggeration 100x. 
