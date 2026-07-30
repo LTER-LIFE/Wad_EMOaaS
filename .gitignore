@@ -6,6 +6,7 @@ bin-release/
 
 # Other files and folders
 .settings/
+/output_scritps/Upload_to_Naavre.ipynb
 
 # Executables
 *.swf
