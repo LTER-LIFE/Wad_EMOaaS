@@ -7,6 +7,8 @@ The expected output is a Model data product and will be peer-reviewed before del
 ### Keywords
 Wadden Sea Ecosystem Model, Pelagic and Benthic coupling; Ecosystem Digital Twin Downscalling
 
+[![Watch the video](https://raw.githubusercontent.com/LTER-LIFE/Wad_EMOaaS/main/wad-emoaas-video.png)](https://www.youtube.com/watch?v=2SVKzipLpKo)
+
 ---
 A **Digital Twin** is defined as:
 
